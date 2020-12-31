@@ -1,0 +1,43 @@
+.remainder-component{
+    .remainder-title{
+        font-weight: bold;
+        color: #11141a;
+        font-size: 18px;
+        width: 80%;
+        display: inline-block;
+    }
+    .view-all{
+        width: 20%;
+        display: inline-block;
+        color: #ffa712;
+        font-size: 14px;
+        cursor: pointer;
+        font-weight: bold;
+        .view-all-img{
+            margin-left: 10px;
+        }
+    }
+    .remainder{
+        margin-top:30px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+        .remainder-img{
+            width: 15%;
+        }
+        .remainder-message{
+            width: 80%;
+            margin-left:20px;
+            .message-title{
+                font-weight: bold;
+                font-size: 14px;
+                color: #4d5767;
+            }
+            .message{
+                margin-top: 5px;
+                font-weight: bold;
+                color: #b4beca;
+            }
+        }
+    }
+}

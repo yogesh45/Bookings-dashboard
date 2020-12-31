@@ -1,0 +1,30 @@
+.tabComponent{
+    margin-left: 30px;
+    display: flex;
+    border-bottom: 1px solid #e6ebf1;
+    .tabs {
+        padding: 10px 0px 15px 0px;
+        width:14%;
+        cursor: pointer;
+        position: relative;
+        .tab-value{
+            color: #bcc6d6;
+            font-weight: 700;
+            font-size: 18px;
+        }
+    }
+    .tabs.selected{
+        .tab-value{
+            color: #14171d;
+        }
+    }
+    .tabs.selected::after{
+        content : "";
+        position: absolute;
+        left    : 6px;
+        bottom  : 0;
+        height  : 2px;
+        width   : 50%;  /* or 100px */
+        border-bottom:3px solid #ffa712;
+    }
+}

@@ -1,0 +1,40 @@
+.sidebar-component{
+    .sidebar-title{
+        height:200px;
+        .title{
+            margin: auto;
+            text-align: center;
+            width: max-content;
+            &:after{
+                content: ".";
+                color:#ffa101;
+                font-weight: bold;
+                font-size: 36px;
+            }
+            &:before{
+                content: ".";
+                color:#ffa101;
+                font-weight: bold;
+                font-size: 36px;
+            }
+        }
+    }
+    .menu-icons{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        .icons{
+            width: 100%;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .icons.selected{
+            border-right: 3px solid #ffa712;
+        }
+    }
+    .logout-icon{
+        position: absolute;
+        bottom: 80px;
+        left: 20px;
+    }
+}
